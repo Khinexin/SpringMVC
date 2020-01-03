@@ -11,10 +11,9 @@ public class HomeController {
 
 	@RequestMapping(method = RequestMethod.GET)
 	public String printHello(ModelMap model) {
-		model.addAttribute("massge", "Hello Ruslan");
+		model.addAttribute("massge", "Hello World!");
 		return "home";
 	}
-//	public ModelAndView test(HttpServletResponse response) throws IOException{
-//		return new ModelAndView("home");
-//	}
+
+	
 }

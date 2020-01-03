@@ -10,7 +10,5 @@
     <body>
         <h1>${massge}</h1>
         <p>This is the homepage!</p>
-            ${massge}
-
     </body>
 </html>
